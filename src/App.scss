@@ -19,9 +19,9 @@ header {
 
   #logo {
     width: 200px;
+    height: 200px;
     margin-right: 5%;
     border-radius: 15%;
-    max-height: 200px;
   }
 
   div{
@@ -81,6 +81,14 @@ footer {
   text-align: center;
 }
 
+@media (max-height:500px){
+  header{
+    #logo{
+      height: 150px;
+      width: 150px;
+    }
+  }
+}
 
 @media (max-width:769px){
   body{
@@ -90,14 +98,17 @@ footer {
     flex-direction: column;
     padding: 50px;
     #logo{
-      max-height: 150px;
-      max-width: 150px;
+      height: 150px;
+      width: 150px;
       margin-right: 0;
     }
     div{
       h1{
         margin-top: 5px;
         margin-bottom: 5px;
+      }
+      P{
+        margin-top: 5px;
       }
       font-size: x-large;
     }
@@ -136,8 +147,8 @@ footer {
   header{
     height: 25vh;
     #logo{
-      max-height: 125px;
-      max-width: 125px;
+      height: 125px;
+      width: 125px;
     }
     div{
       font-size: large;
