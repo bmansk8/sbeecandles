@@ -7,7 +7,7 @@ function App() {
         <img src='https://sbee-candles.s3.amazonaws.com/logo.jpg' alt="logo" id="logo" />
         <div>
           <h1>SBee Candles</h1>
-          <p>north georgia bees wax candles</p>
+          <p>north georgia beeswax candles</p>
         </div>
       </header>
       <div id="contact_info">
@@ -23,7 +23,7 @@ function App() {
       </div>
 
       <div id="benifits">
-        <h2>What are the benifits of sbee candles?</h2>
+        <h2>What are the benefits of SBee candles?</h2>
         <ul>
           <li>Hypo-allergenic</li>
           <li>non toxic</li>
@@ -32,7 +32,7 @@ function App() {
           <li>chemical free</li>
           <li>emits negative ions known to purify the air *</li>
           <li>locally sourced north georgia beeswax</li>
-          <li>sustainble harvesting of wax</li>
+          <li>sustainable harvesting of wax</li>
           <li>100% cotton wicks (lead free)</li>
           <li>small batch</li>
           <li>hand poured</li>
