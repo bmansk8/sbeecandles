@@ -7,7 +7,7 @@ function App() {
         <img src='https://sbee-candles.s3.amazonaws.com/logo.jpg' alt="logo" id="logo" />
         <div>
           <h1>SBee Candles</h1>
-          <p>north georgia beeswax candles</p>
+          <p>promoting health and well<strong>bee</strong>ing</p>
         </div>
       </header>
       <div id="contact_info">
@@ -39,7 +39,7 @@ function App() {
           <li>And so many more...</li>
         </ul>
 
-        <p>* limited scientific evidence</p>
+        <p id='astrisk'>* limited scientific evidence</p>
       </div>
 
       <footer>
