@@ -32,6 +32,9 @@ header {
     }
     p{
       margin: 0;
+      span{
+        font-size: 1.3em;
+      }
     }
     font-size: xx-large;
   }
@@ -61,6 +64,22 @@ header {
 
   #astrisk {
     font-size: 0.5em;
+  }
+}
+
+.carousel-root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4%;
+  .carousel-slider ~ .carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    .thumbs{
+      padding: 0;
+    }
   }
 }
 
@@ -129,6 +148,10 @@ footer {
     }
   }
 
+  .carousel-root{
+    margin: 0;
+  }
+
   footer {
     margin-top: 0;
   }
@@ -148,5 +171,9 @@ footer {
     div {
       font-size: large;
     }
+  }
+
+  .carousel-slider{
+    width:200px;
   }
 }

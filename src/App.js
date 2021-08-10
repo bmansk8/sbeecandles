@@ -4,10 +4,16 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img src='https://sbee-candles.s3.amazonaws.com/logo.jpg' alt="logo" id="logo" />
+        <img
+          src="https://sbee-candles.s3.amazonaws.com/logo.jpg"
+          alt="logo"
+          id="logo"
+        />
         <div>
           <h1>SBee Candles</h1>
-          <p>promoting health and well<strong>bee</strong>ing</p>
+          <p>
+            promoting health and well <span>bee</span>ing
+          </p>
         </div>
       </header>
       <div id="contact_info">
@@ -39,7 +45,7 @@ function App() {
           <li>And so many more...</li>
         </ul>
 
-        <p id='astrisk'>* limited scientific evidence</p>
+        <p id="astrisk">* limited scientific evidence</p>
       </div>
 
       <footer>
