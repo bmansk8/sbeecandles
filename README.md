@@ -4,6 +4,10 @@ a simple splash page for the company SBee candles
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## See it hosted
+
+You can go to [SBee candles](https://www.sbeecandles.com/) to see it in production.
+
 ## Available Scripts
 
 In the project directory, you can run:
